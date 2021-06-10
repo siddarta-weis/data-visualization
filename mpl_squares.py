@@ -1,4 +1,4 @@
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt, mpld3
 from math import sqrt
 
 radicand = []
@@ -21,3 +21,4 @@ plt.ylabel("Radicand", fontsize=14)
 plt.tick_params(axis='both', labelsize=14)
 
 plt.show()
+# mpld3.show()
